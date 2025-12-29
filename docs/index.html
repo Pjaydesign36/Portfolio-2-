@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pjay Design</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <style>
+    body {
+      font-family: Arial;
+      background-color: #e0f7fa; /* primary background */
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      color: #333333;
+    }
+
+    /* Header Image */
+    .header img {
+      width: 100%;
+      max-height: 250px;
+      object-fit: cover;
+      border-bottom: 3px solid #333333;
+    }
+
+    /* Navbar */
+    nav {
+      margin-bottom: 20px;
+      padding: 10px 0;
+      background-color: #ffffff;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    }
+
+    nav a {
+      margin: 0 10px;
+      color: #333333;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 5px 10px;
+      border-radius: 5px;
+      transition: background 0.3s ease, color 0.3s ease;
+    }
+
+    nav a:hover {
+      background-color: #ff6f61; /* accent hover */
+      color: white;
+    }
+
+    h1 {
+      margin-top: 20px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+
+    /* Portfolio */
+    .portfolio {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+      padding: 0 10px;
+    }
+
+    .project {
+      background: #ffffff;
+      padding: 10px;
+      border-radius: 10px;
+      width: 200px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .project img {
+      width: 100%;
+      border-radius: 5px;
+    }
+
+    .project p {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+
+    .project:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+    }
+
+    /* Mobile Responsive */
+    @media screen and (max-width: 600px) {
+      .portfolio {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .project {
+        width: 90%;
+        margin-bottom: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <img src="https://i.postimg.cc/7hYtC1kK/socialmedia.jpg" alt="Portfolio Banner">
+  </div>
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <h1>Welcome to my portfolio</h1>
+  <p>This is my small website created while learning web development.</p> 
+
+  <h2>My Projects</h2>
+  <div class="portfolio">
+    <div class="project">
+      <img src="https://i.postimg.cc/4Nf4vMZ5/website.jpg" alt="Website Design">
+      <p>Website Design</p>
+    </div>
+    <div class="project">
+      <img src="https://i.postimg.cc/N0p8Q1q9/logo.jpg" alt="Logo Design">
+      <p>Logo Design</p>
+    </div>
+    <div class="project">
+      <img src="https://i.postimg.cc/7hYtC1kK/socialmedia.jpg" alt="Social Media Graphics">
+      <p>Social Media Graphics</p>
+    </div>
+  </div>
+
+</body>
+        </html>
